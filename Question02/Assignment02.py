@@ -13,7 +13,7 @@ for a0 in range(n):
     
     """
     [summary]:
-    Test Cases : 
+    Test Case : -> Expected Answer
     38 -> 40
     23 -> 23
     123 -> 125

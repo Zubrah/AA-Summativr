@@ -11,4 +11,4 @@ for val in range(0, value + 1):
     sum = sum + val
     
 # return the sum
-print(sum)
+print("The sum of the numbers from 0 to num is: ", sum)

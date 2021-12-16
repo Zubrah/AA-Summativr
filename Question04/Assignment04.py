@@ -8,17 +8,17 @@ def digits_sum(n):
 
 
 def super_digit(n):
-    d = digits_sum(n)
-    if d < 10:
-        return d
-    return super_digit(d)
+    p = digits_sum(n)
+    if p < 10:
+        return p
+    return super_digit(p)
 
 
 def super_digit_iter(n):
-    d = digits_sum(n)
-    while d > 9:
-        d = digits_sum(d)
-    return d
+    p = digits_sum(n)
+    while p > 9:
+        p = digits_sum(p)
+    return p
 
 
 def main():
@@ -34,7 +34,7 @@ if __name__ == "__main__":
     
     """
     [summary]
-    Test Cases :
+    Test Case : -> Expected Answer
     1. 975 4 -> 3
     2. 123 3 -> 9
     3. 567 8 -> 9
